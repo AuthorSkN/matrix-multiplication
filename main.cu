@@ -101,7 +101,7 @@ int main ( int argc, char *  argv [] )
     cudaEventElapsedTime ( &gpuTime, start, stop );
 
     // print the cpu and gpu times
-    printf("time spent executing by the GPU: %.2f millseconds\n", gpuTime );
+    printf("time spent executing by the GPU: %.2f millseconds, results were saved to test_data.txt\n", gpuTime );
     write_data_to_file("Result matrix", c);
 
     // release resources
