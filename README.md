@@ -1,4 +1,6 @@
 # Matrix multiplication
+Gavrilov Vladislav
+6233
 ## The goal
 Calculate matrix multiplication with cuda c++ compiler
 ## Prerequisites
